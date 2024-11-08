@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1 {
+          text-shadow: 2px 2px rgb(234, 255, 2);
+          }
+          h2 {
+          text-shadow: 2px 2px rgb(234, 255, 2);
+          }
+          h5 {
+          text-shadow: 2px 2px rgb(234, 255, 2);
+          }
+            body {
+                font-family: 'Times New Roman', Times, serif;
+                margin: 0;
+                padding: 0;
+                background-color: #000000; /* Background color */
+                color: #000000; /* Default font color */
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh; /* Ensure footer stays at the bottom */
+            }
+            .navbar {
+                margin-bottom: 0;
+                background-color: rgb(86, 1, 151);
+                border: 0;
+                font-size: 12px !important;
+                letter-spacing: 3px;
+                opacity: 0.9;
+            }
+          .navbar li a:hover, .navbar .navbar-brand:hover {
+                transform: translateY(-2px); /* Jump effect on hover */}
+          
+            .navbar li a, .navbar .navbar-brand {
+                color: #b9e109 !important;
+            }
+            footer {
+                background-color: rgb(86, 1, 151); /* Footer background color */
+                color: rgb(234, 255, 2); /* Default footer text color */
+                text-align: center;
+                padding: 30px;
+                margin-top: auto; /* Keep footer at the bottom */
+                font-size: 18px; /* Custom font size for footer text */
+                position: bottom;
+                bottom: 0;
+                width: 100%;
+            }
+            .content-wrapper {
+                display: flex; /* Flexbox layout */
+                align-items: flex-start; /* Align items at the top */
+                padding-top: 70px; /* Adjust padding */
+                flex-grow: 1; /* Allow content to grow */
+            }
+            .custom-image {
+                  
+                margin-left: -50px; /* Reduced space between image and text */
+                 margin-right: 50px; /* Reduced space between image and text */
+                max-width: 60%; /* Responsive width */
+                height: 450px; /* Maintain aspect ratio */
+            }
+            h1 {
+                font-size: 48px; /* Font size for heading */
+                color: rgb(0, 0, 0); /* Heading color */
+            }
+            p {
+                font-size: 20px; /* Font size for paragraph */
+                color: black; /* Paragraph color */
+               font-family: 'Times New Roman', serif; /* Custom font family for paragraph */
+            }
+          </style>
+    </head>
+<div>
+    <body>
+        <center>
+        <section>
+          <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <h1>Project 3</h1>
+            </div>>
+        </nav>
+
+
+<p>This is an animation of a AND Logic Gate</p>
+
+
+<button onclick="document.getElementById('myImage').src='and2off.PNG'">0 AND 0</button>
+<button onclick="document.getElementById('myImage').src='andoffon.PNG'">0 AND 1</button>
+<button onclick="document.getElementById('myImage').src='andonoff.PNG'">1 AND 0</button>
+<button onclick="document.getElementById('myImage').src='and2on.png'">1 AND 1</button>
+
+<div></div>
+<img id="myImage" src="and2off.PNG">
+<div>
+    <h2><a href="course.html">Back to Project page...</a></h2>
+    <h2><a href="Foc-Master2.html">Back to Home...</a></h2>
+</div>
+
+</section>
+</center>
+</div>
+
+
+<!-- Footer -->
+<footer>
+    <f>@Powered by UB</f>
+  </footer>
+  
+
+</body>
+</html>

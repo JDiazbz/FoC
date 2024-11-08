@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AND</title>
+	<style>
+.button {
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+h1 {
+text-shadow: 2px 2px rgb(234, 255, 2);
+}
+h2 {
+text-shadow: 2px 2px rgb(234, 255, 2);
+}
+h3 {
+text-shadow: 2px 2px rgb(234, 255, 2);
+}
+  body {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000000; /* Background color */
+      color: #000000; /* Default font color */
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh; /* Ensure footer stays at the bottom */
+  }
+  .navbar {
+      margin-bottom: 0;
+      background-color: rgb(86, 1, 151);
+      border: 0;
+      font-size: 12px !important;
+      letter-spacing: 3px;
+      opacity: 0.9;
+  }
+.navbar li a:hover, .navbar .navbar-brand:hover {
+      transform: translateY(-2px); /* Jump effect on hover */}
+
+  .navbar li a, .navbar .navbar-brand {
+      color: #b9e109 !important;
+  }
+  footer {
+      background-color: rgb(86, 1, 151); /* Footer background color */
+      color: rgb(234, 255, 2); /* Default footer text color */
+      text-align: center;
+      padding: 30px;
+      margin-top: auto; /* Keep footer at the bottom */
+      font-size: 18px; /* Custom font size for footer text */
+      position: bottom;
+      bottom: 0;
+      width: 100%;
+  }
+  .content-wrapper {
+      display: flex; /* Flexbox layout */
+      align-items: flex-start; /* Align items at the top */
+      padding-top: 70px; /* Adjust padding */
+      flex-grow: 1; /* Allow content to grow */
+  }
+  .custom-image {
+        
+      margin-left: -50px; /* Reduced space between image and text */
+       margin-right: 50px; /* Reduced space between image and text */
+      max-width: 60%; /* Responsive width */
+      height: 450px; /* Maintain aspect ratio */
+  }
+  h1 {
+      font-size: 48px; /* Font size for heading */
+      color: rgb(0, 0, 0); /* Heading color */
+  }
+  p {
+      font-size: 20px; /* Font size for paragraph */
+      color: black; /* Paragraph color */
+     font-family: 'Times New Roman', serif; /* Custom font family for paragraph */
+  }
+</style>
+</head>
+<body>
+<center>
+  <section>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <h1>Project 2</h1>
+    </div>
+</nav>
+<script src = "javascript.js"></script>
+<script> 
+
+</script>
+
+ <button class="button" onclick = "and()">Run</button>
+
+<div>
+  <table style="width: 100%;">
+      <td>
+        <img src="button.jpg"  id="toggleImage"onclick="toggleImage(); toggleInputOne();" style="width: 100px; height: 40px;"/>
+	<br>
+    <img src="button.jpg"  id="toggleImage2" onclick="toggleImage2(); toggleInputTwo();"style="width: 100px; height: 40px;"/> 
+</td>
+      <td><img id="andGate" src="and2off.png" style="width: 550px; height: 200px;"></td>
+  </table>
+  </div>
+
+  <div>
+    <h3><a href="course.html">Back to Project page...</a></h3>
+    <h3><a href="Foc-Master2.html">Back to Home...</a></h3>
+</div>>
+</section>
+</center>
+
+<!-- Footer -->
+<footer>
+  <f>@Powered by UB</f>
+</footer>
+
+
+
+
+</body>
+</html>
